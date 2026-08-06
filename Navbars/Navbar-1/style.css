@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #020111;
+}
+.nav-bar{
+    display: flex;
+    padding: .7rem 2rem;
+
+}
+.first-part{
+    display: flex;
+}
+.first-part .logo{
+    color: white;
+    font-size:3rem;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.first-part p{
+    color: white;
+    font-size:2rem;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

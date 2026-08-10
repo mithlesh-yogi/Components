@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+     background-color: rgb(2, 36, 36);
+     height:2000px;  
+}
+.nav-bar{
+    display: flex;
+    padding: 1rem 7rem;
+    background-color: rgb(24, 25, 25);
+    align-items: center;
+    justify-content: space-between;
+    /* width: 80%; */
+    /* border-radius: 30px; */
+    /* margin: 10px 40px; */
+}
+.logo-content{
+    display: flex;
+    align-items: baseline;
+
+}
+.logo-name-1{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: rgb(231, 88, 49);
+}
+.logo-name-2{
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: rgb(224, 122, 94);
+}
+.menu{
+    width: 30%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.tab{
+    color: white;
+    list-style: none;
+    cursor: pointer;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.tab i{
+    margin-right: 4px;
+    font-size: .9rem;
+}
+.tab:hover{
+    color: rgb(231, 88, 49);
+    transition: .3s ease-in-out;
+}
+.last-part{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+    
+}
+.last-part i{
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+.get-started-btn{
+    background-color: rgb(231, 88, 49);
+    border-radius: 25px;
+    padding: 10px 10px;
+}
+.get-started-btn button{
+    outline: none;
+    border: none;
+    background-color: rgb(231, 88, 49);
+    color: white;
+    font-size: 1.2rem;
+    /* padding: 8px 10px; */
+    border-radius: 20px;
+    cursor: pointer;
+}
+#btn-icon{
+    /* padding-right: 5px; */
+}

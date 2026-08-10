@@ -6,3 +6,12 @@ menu.forEach((tab)=>{
     tab.classList.add("active")
 })
 })
+
+// const theme = document.querySelector("#theme")
+// console.log(theme);
+
+// theme.addEventListener("click",()=>{
+//     document.querySelector('body').style.background ="white";
+//     console.log("clicked");
+    
+// })

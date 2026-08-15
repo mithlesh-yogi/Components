@@ -16,8 +16,8 @@ body{
     /* background-color: #000000; */
     align-items: center;
     justify-content: space-between;
-    
-    
+    /* animation: navDown 0.6s ease forwards; */
+    transition: transform 0.3s ease;
 }
 .logo-content{
     display: flex;
@@ -35,7 +35,7 @@ body{
     color: rgb(224, 122, 94);
 }
 .menu{
-    width: 30%;
+    width: 40%;
 }
 .menu ul{
     display: flex;
@@ -74,20 +74,20 @@ body{
 .get-started-btn{
     background-color: rgb(231, 88, 49);
     border-radius: 25px;
-    padding: 10px 10px;
+    padding: 8px;
 }
 .get-started-btn button{
     outline: none;
     border: none;
     background-color: rgb(231, 88, 49);
     color: white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     /* padding: 8px 10px; */
     border-radius: 20px;
     cursor: pointer;
 }
-#btn-icon{
-   font-size: 1.1rem;
+.get-started-btn  i{
+   font-size: .8rem;
 }
 
 /* nav-animation */
@@ -95,31 +95,40 @@ body{
     position: fixed;
     border-radius: 50px;
     margin: 0 8%;
-    top: 15px;
+    top: 5px;
     left: 0;
     right: 0;
     z-index: 999;
     border: 2px solid #212121;
-    transform: translateY(-20px);
-    transition: transform 0.3s ease-in-out;
-  animation: navDown 0.6s ease forwards;
-  /* background: rgba(33, 33, 33, 0.3); */
   background-color: transparent;
   backdrop-filter: blur(4px);
+  padding: .7rem 2.5srem;
+  transform: translateY(10px);
 }
-@keyframes navDown {
-  from {
-    transform: translateY(-20px);
-    opacity: 0;
-  }
 
-  to {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 .para{
     color: white;
     font-size: 1rem;
     margin-top: 200px;
+    margin:200px 3%;
+}
+
+
+/* responsive */
+@media(max-width:650px){
+    .menu, .last-part{
+        display: none;
+    }
+    body{
+        margin: 0px 2%;
+    }
+    .nav-bar.scrolled{
+        margin: 0px 3%;
+    }
+    .logo-name-1{
+        font-size: 1.5rem;
+    }
+    .logo-name-2{
+        font-size: 1.5rem;
+    }
 }
